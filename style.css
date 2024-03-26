@@ -10,6 +10,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #000;
 }
 
 #calcbody {
@@ -20,7 +21,8 @@ section {
     flex-wrap: wrap;
     align-content: center;
     padding: 3rem;
-    background-color: #b843f2;
+    background: linear-gradient(0deg, rgba(255,249,249,1) 0%, rgba(239,111,255,1) 50%, rgba(200,14,224,1) 84%);
+
 }
 
 .numbt {
@@ -53,4 +55,5 @@ section {
     justify-content: end;
     align-items: center;
     padding: 1rem;
+    border-style: none;
 }
